@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tomessy/Webflix.git"
+    "url": "https://github.com/Tomessy/realtorspendingforpassions"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/Tomessy/Webflix#readme"
+  "homepage": "https://realtorspendingforpassions.herokuapp.com/"
 }
