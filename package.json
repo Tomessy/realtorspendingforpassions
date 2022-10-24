@@ -1,0 +1,20 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "./client/public/index.html",
+  "scripts": {
+    "start": "echo 'api is starting...' && cd api && npm install && npm run start",
+    "nodemon": "echo 'NODEMON STARTING...' && cd api && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomessy/Webflix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomessy/Webflix/issues"
+  },
+  "homepage": "https://github.com/Tomessy/Webflix#readme"
+}
