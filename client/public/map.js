@@ -1,6 +1,6 @@
 // Create the script tag, set the appropriate attributes
 const script = document.createElement('script');
-const API_KEY = process.env.GOOGLE_MAPS_API_KEY;
+const API_KEY = env.GOOGLE_MAPS_API_KEY;
 console.log(API_KEY)
 script.src = "https://maps.googleapis.com/maps/api/js?key=" + API_KEY + "&callback=initMap";
 script.async = true;
