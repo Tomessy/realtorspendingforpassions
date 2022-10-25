@@ -1,8 +1,8 @@
 {
-  "name": "website",
+  "name": "client-website",
   "version": "1.0.0",
   "description": " ",
-  "main": "./client/public/index.html",
+  "main": "./public/index.html",
   "scripts": {
     "start": "echo 'api is starting...' && cd api && npm install && npm run start",
     "nodemon": "echo 'NODEMON STARTING...' && cd api && npm run start"
@@ -13,5 +13,11 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://realtorspendingforpassions.herokuapp.com/"
+  "homepage": "https://realtorspendingforpassions.herokuapp.com/",
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.14.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
 }

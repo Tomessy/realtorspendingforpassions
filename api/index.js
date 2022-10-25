@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 
 // Tells express about the client folder
-app.use(express.static(path.join(__dirname, "../client")));
+app.use(express.static(path.join(__dirname, "../client/public")));
 
 // index html
 app.get("/", (req, res) => {
