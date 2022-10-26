@@ -144,6 +144,7 @@ body {
     margin-left: auto;
     background-color: #6eb2eb;
     max-width: 960px;
+    color: white;
 }
 
 .container2 {
@@ -154,6 +155,8 @@ body {
     margin-left: auto;
     background-color: #175e97;
     max-width: 960px;
+    color: white;
+
 }
 
 .container3 {
@@ -164,6 +167,8 @@ body {
     margin-left: auto;
     background-color: #023763;
     max-width: 960px;
+    color: white;
+
 }
 
 .justify-content-center {
@@ -357,4 +362,8 @@ div {
     border-color: #42B6F3;
     color: #42B6F3;
     text-decoration: none;
+}
+.blueBar {
+    padding: 50px;
+    color: 
 }
