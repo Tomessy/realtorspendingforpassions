@@ -12,11 +12,11 @@ const app = express();
 app.use(express.json());
 
 // Tells express about the client folder
-app.use(express.static(path.join(__dirname, "../client/public")));
+app.use(express.static(path.join(__dirname, "../client")));
 
 // index html
 app.get("/", (req, res) => {
-	res.sendFile(path.join(__dirname, "../client/public/index.html"));
+	res.sendFile(path.join(__dirname, "../client/index.html"));
 });
 
 // Sends a 404 error if no end points match the end points.
