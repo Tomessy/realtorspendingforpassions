@@ -1,5 +1,5 @@
 // Create the script tag, set the appropriate attributes
-const axios = require(axios);
+<script src="./node_modules/axios/dist/axios.min.js"></script>
 axios.get("/API_KEY")
   .then((res) => {
     const script = document.createElement('script');
