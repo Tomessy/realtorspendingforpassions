@@ -15,7 +15,8 @@
   "license": "ISC",
   "homepage": "https://realtorspendingforpassions.herokuapp.com/",
   "dependencies": {
-    "@googlemaps/js-api-loader": "^1.14.3"
+    "@googlemaps/js-api-loader": "^1.14.3",
+    "axios": "^1.2.0"
   },
   "devDependencies": {
     "dotenv": "^16.0.3"

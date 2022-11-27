@@ -19,6 +19,11 @@ app.get("/", (req, res) => {
 	res.sendFile(path.join(__dirname, "../client/index.html"));
 });
 
+app.get("/map", (req, res) => {
+	const api = process.env.GOOGLE_MAPS_API_KEY;
+	res.send(api);
+});
+
 // Sends a 404 error if no end points match the end points.
 app.use((req, res) => {
 	res.status(404).json({
