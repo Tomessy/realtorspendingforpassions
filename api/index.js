@@ -21,6 +21,7 @@ app.get("/", (req, res) => {
 
 app.get("/map", (req, res) => {
 	const api = process.env.GOOGLE_MAPS_API_KEY;
+	console.log(api)
 	res.send(api);
 });
 
