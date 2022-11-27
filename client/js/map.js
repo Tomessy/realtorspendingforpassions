@@ -2,7 +2,7 @@
 const script = document.createElement('script');
 const API_KEY = process.env.GOOGLE_MAPS_API_KEY;
 console.log(API_KEY)
-script.src = "https://maps.googleapis.com/maps/api/js?key=" + API_KEY + "&callback=initMap";
+script.src = "https://maps.googleapis.com/maps/api/js?key=" + API_KEY;
 script.async = true;
 
 // Attach your callback function to the `window` object
