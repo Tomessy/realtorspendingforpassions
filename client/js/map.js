@@ -9,11 +9,14 @@ window.initMap = function() {
     });
   
   const tourStops = [
-    [{ lat: 37.31666576417026, lng: -89.53040961735485 }, "Dempster Hall"],
-    [{ lat: 37.30374, lng: -89.58629 }, "Walmart"],
-    [{ lat: 37.32954, lng: -89.56868 }, "Cape Splash"],
-    [{ lat: 37.30674, lng: -89.53027 }, "Burrito-Ville"],
-    [{ lat: 37.63189, lng: -89.51483 }, "Tower Rock"],
+    [{ lat: 37.30511529253102, lng: -89.55003362984333}, "Cape Girardeau"],
+    [{ lat: 36.16622870634739, lng: -86.78764541308435 }, "House Sold in Nashville TN"],
+    [{ lat: 41.10554727276672, lng: -89.3158612492457 }, "House Sold in Illinois"],
+    [{ lat: 38.879966060909474, lng: -100.1140859684321 }, "House Sold in Kansas"],
+    [{ lat: 33.58253239112885, lng: -93.06028154143416 }, "House Sold in Arkansas"],
+    [{ lat: 27.800437244028895, lng: -82.6870897520678 }, "House Sold in Florida"],
+    [{ lat: 44.20422246562911, lng:-106.68040319809943 }, "House Sold in Wyoming"],
+    [{ lat: 30.171137911995988, lng: 31.1759163707121 }, "House Sold in Africa"]
   ];
   // Create an info window to share between markers.
   const infoWindow = new google.maps.InfoWindow();
