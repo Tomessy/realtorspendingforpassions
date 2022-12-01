@@ -1,12 +1,7 @@
 const express = require("express");
-// const helmet = require("helmet");
-// const morgan = require("morgan");
 const path = require("path");
-//const routes = require("./routes");
 
 const app = express();
-
-// app.use(helmet());
 
 // Sets up request body JSON parsing
 app.use(express.json());
@@ -17,12 +12,6 @@ app.use(express.static(path.join(__dirname, "../client")));
 // index html
 app.get("/", (req, res) => {
 	res.sendFile(path.join(__dirname, "../client/index.html"));
-});
-
-app.get("/API_KEY", (req, res) => {
-	const api = process.env.GOOGLE_MAPS_API_KEY;
-	console.log(api + " Backend");
-	res.status(200).json(api);
 });
 
 // Sends a 404 error if no end points match the end points.
